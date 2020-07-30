@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Roboto, monospace, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #f8f8ff;
+  letter-spacing: .1rem;
+  background-image: url(https://wallpapercave.com/wp/wIbRehy.jpg);
+  /*background: linear-gradient(to top, #111111, #222222) no-repeat center center fixed;*/
+  background-color: #282c34;
+}
+
+code {
+  font-family: source-code-pro, Consolas, 'Courier New',
+    monospace;
+}
+
+.links {
+  text-decoration: none;
+  /*color: #61dafb;*/
+  color: #00cdcd;
+  cursor: pointer;
+  transition: color .2s ease;
+}
+
+.links:hover {
+  color: #4ca6a6;
+}
